@@ -1,15 +1,26 @@
 {
-  "name": "moa-task",
-  "version": "1.0.0",
+  "name": "mount-tasks",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm publish .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moajs/mount-tasks.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moajs/mount-tasks/issues"
+  },
+  "homepage": "https://github.com/moajs/mount-tasks#readme",
   "dependencies": {
-    "gulp": "^3.9.0",
     "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
   }
 }

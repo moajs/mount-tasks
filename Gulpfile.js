@@ -15,9 +15,9 @@
 
 var gulp        = require('gulp');
 
-// Require all tasks in gulp/tasks, including subfolders
-var tasks = require('./index')
-console.log(tasks);
+// Require all tasks in vendor/tasks, including subfolders
+require('./index')(__dirname + '/tasks')
+
 
 // default task
 gulp.task('default', ['clean', 'build']);
