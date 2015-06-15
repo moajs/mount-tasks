@@ -1,7 +1,7 @@
 {
   "name": "mount-tasks",
   "version": "1.0.3",
-  "description": "",
+  "description": "auto mount gulp tasks",
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
