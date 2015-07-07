@@ -12,7 +12,7 @@ auto mount gulp tasks
 var gulp        = require('gulp');
 
 // Require all tasks in vendor/tasks, including subfolders
-require('./index')(__dirname + '/tasks')
+require('mount-tasks')(__dirname + '/tasks')
 
 // default task
 gulp.task('default', ['clean', 'build']);

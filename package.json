@@ -1,6 +1,6 @@
 {
   "name": "mount-tasks",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "auto mount gulp tasks",
   "main": "index.js",
   "scripts": {
